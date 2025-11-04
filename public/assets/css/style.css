@@ -70,22 +70,17 @@ header {
 
 .memos__content {
     flex-grow: 1;
-    margin-left: 50px;
-    position: relative;
     max-width: 100%;
     width: 100%;
 }
 
 .memos__text {
-    position: relative;
     padding: 1rem;
     font-size: 1rem;
 }
 
 .timeline {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     margin-bottom: 1.5rem;
 }
 
@@ -119,30 +114,18 @@ header {
 
 .memos__userinfo {
     display: flex;
-    font-weight: 700;
     align-items: center;
 }
 
 .memos__verify {
-    margin-left: 2px;
     max-width: 20px;
     max-height: 20px;
     height: 1.25rem;
-    display: inline-block;
-    flex-shrink: 1;
     margin-left: 4px;
 }
 
 .memos__id {
     font-size: 0.875rem;
-    overflow-wrap: break-word;
-    min-width: 0px;
-    box-sizing: border-box;
-    display: inline;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    flex-shrink: 1;
-    font-weight: 400;
     margin-left: 4px;
 }
 
@@ -150,8 +133,6 @@ header {
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 .images-wrapper {
@@ -176,9 +157,7 @@ header {
 
 .timeline img, .resimg img {
     display: block;
-    vertical-align: middle;
     max-width: 100%;
-    cursor: pointer;
     object-fit: cover;
 }
 
@@ -187,31 +166,18 @@ header {
 }
 
 .load-btn {
-    margin-left: 50px;
     padding: 10px;
     border: none;
 }
 
 @media (max-width: 683px) {
     body {
-        padding: 45px 50px 45px 20px;
+        padding: 20px;
     }
 
     .menu,
     .title {
         font-size: 1rem;
-    }
-
-    .memos__content {
-        margin-left: 0;
-    }
-
-    .load-btn {
-        margin-left: 0;
-    }
-
-    .images-wrapper {
-        grid-template-columns: repeat(2,minmax(0,1fr));
     }
 }
 
