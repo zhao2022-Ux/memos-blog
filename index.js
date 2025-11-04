@@ -11,6 +11,7 @@ const memosHead = process.env.MEMOS_HEAD || '';
 const memosMenu = process.env.MEMOS_MENU || '';
 const memosFooter = process.env.MEMOS_FOOTER || '';
 const memosIcon = process.env.MEMOS_ICON || '';
+const APIVersion = process.env.APIVersion || 'legacy';
 
 app.use((req, res, next) => {
   res.removeHeader('X-Frame-Options');
@@ -74,6 +75,7 @@ app.get('/', (req, res) => {
 			limit: '${memosLimit}',	// Pagination to show.
 			creatorId: '${memosUserId}',  // The old instance is 101, and the new instance is 1. 
 			domId: '#memos',	// Default #memos.
+			APIVersion: 'legacy'
                        }
 	</script>
 	<script type="text/javascript" src="assets/js/marked.umd.min.js?v=14.0.0"></script>
