@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-const memosHost = process.env.MEMOS_HOST || 'http://43.247.135.19:5230/';
+const memosHost = process.env.MEMOS_HOST || 'https://memos.xzy404.me/';
 const memosLimit = process.env.MEMOS_LIMIT || '20';
 const memosUserId = process.env.MEMOS_USER_ID || '1';
 const memosTittle = process.env.MEMOS_TITTLE || 'Memos';

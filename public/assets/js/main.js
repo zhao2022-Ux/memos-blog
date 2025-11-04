@@ -4,7 +4,7 @@
 
 // Memos Start
 var memo = {
-    host: 'http://43.247.135.19:5230/',
+    host: 'https://memos.xzy404.me/',
     limit: '20',
     creatorId: '1',
     domId: '#memos',
