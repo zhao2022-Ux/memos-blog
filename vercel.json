@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js",
+      "headers": {
+        "X-Frame-Options": "ALLOWALL",
+        "Content-Security-Policy": "frame-ancestors 'self' *",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Authorization"
+      }
+    }
+  ],
+  "env": {
+    "MEMOS_HOST": "http://43.247.135.19:5230/",
+    "MEMOS_LIMIT": "@20",
+    "MEMOS_USER_ID": "1",
+    "MEMOS_TITLE": "@memos-title",
+    "MEMOS_HEAD": "@memos-head",
+    "MEMOS_MENU": "@memos-menu",
+    "MEMOS_FOOTER": "@memos-footer",
+    "MEMOS_ICON": "@memos-icon"
+  }
+}
