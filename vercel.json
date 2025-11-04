@@ -22,11 +22,6 @@
   "env": {
     "MEMOS_HOST": "http://43.247.135.19:5230/",
     "MEMOS_LIMIT": "20",
-    "MEMOS_USER_ID": "1",
-    "MEMOS_TITLE": "@memos-title",
-    "MEMOS_HEAD": "@memos-head",
-    "MEMOS_MENU": "@memos-menu",
-    "MEMOS_FOOTER": "@memos-footer",
-    "MEMOS_ICON": "@memos-icon"
+    "MEMOS_USER_ID": "1"
   }
 }
