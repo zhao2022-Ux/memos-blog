@@ -34,9 +34,9 @@ app.get('/', (req, res) => {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="referrer" content="no-referrer">
 	<link rel="icon" href="${memosIcon}" type="image/*" />
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/APlayer.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/highlight.github.min.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/css/APlayer.min.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/css/highlight.github.min.css" rel="stylesheet" type="text/css">
 	<title>${memosTittle}</title>  
     ${memosHead}
 </head>
@@ -78,12 +78,12 @@ app.get('/', (req, res) => {
 			APIVersion: 'legacy'
                        }
 	</script>
-	<script type="text/javascript" src="assets/js/marked.umd.min.js?v=14.0.0"></script>
-	<script type="text/javascript" src="assets/js/view-image.min.js"></script>
-	<script type="text/javascript" src="assets/js/APlayer.min.js"></script>
-	<script type="text/javascript" src="assets/js/Meting.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/js/marked.umd.min.js?v=14.0.0"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/js/view-image.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/js/APlayer.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/js/Meting.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/js/main.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhao2022-Ux/memos-blog/public/assets/js/custom.js"></script>
 </body>
 </html>
     `;
